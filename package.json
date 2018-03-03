@@ -1,0 +1,51 @@
+{
+  "name": "zona-azul",
+  "version": "2.0.0",
+  "description": "Zona Azul V 2.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "gulp && node server.js",
+    "dev": "concurrently --kill-others 'gulp dev' 'node server.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoDinizMonteiro/ZonaAzulApp.git"
+  },
+  "keywords": [
+    "javascript",
+    "angularjs",
+    "angular-material",
+    "sass",
+    "gulp"
+  ],
+  "author": "Gustavo Monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoDinizMonteiro/ZonaAzulApp/issues"
+  },
+  "homepage": "https://github.com/GustavoDinizMonteiro/ZonaAzulApp#readme",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.15",
+    "angular": "^1.6.9",
+    "angular-animate": "^1.6.9",
+    "angular-aria": "^1.6.9",
+    "angular-material": "^1.1.7",
+    "angular-messages": "^1.6.9",
+    "babel-core": "^6.26.0",
+    "babel-plugin-angularjs-annotate": "^0.8.2",
+    "babel-preset-es2015": "^6.24.1",
+    "express": "^4.16.2",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.2.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.0.0",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
