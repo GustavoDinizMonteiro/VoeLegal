@@ -7,7 +7,11 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
         $stateProvider
             .state('about', {
                 url: '/',
-                templateUrl: "app/components/about/about.html"
+                templateUrl: 'app/components/about/about.html'
+            })
+            .state('signin', {
+                url: '/signin',
+                templateUrl: 'app/components/signin/signin.html'
             });
     }
 ]);
