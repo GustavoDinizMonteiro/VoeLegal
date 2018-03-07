@@ -1,7 +1,7 @@
 {
-  "name": "zona-azul",
-  "version": "2.0.0",
-  "description": "Zona Azul V 2.0.0",
+  "name": "voe-legal",
+  "version": "1.0.0",
+  "description": "VoeLegal",
   "main": "server.js",
   "scripts": {
     "start": "gulp && node server.js",

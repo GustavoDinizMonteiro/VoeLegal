@@ -1,4 +1,4 @@
-var app = angular.module('zona-azul', ['ui.router', 'ngMaterial', 'ngMessages']);
+var app = angular.module('voe-legal', ['ui.router', 'ngMaterial', 'ngMessages']);
 
 app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', 
     function($stateProvider, $urlRouterProvider, $locationProvider) {
