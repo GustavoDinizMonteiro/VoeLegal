@@ -1,3 +1,9 @@
 .home-pg {
-    
+    navcomponent {
+        position: fixed;
+        overflow-y: scroll;
+        z-index: 3;
+        margin-left: 30%;
+        margin-top: 3%;
+    }
 }
