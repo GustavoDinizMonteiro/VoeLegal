@@ -36,7 +36,8 @@ $primary-color: #1BAF8F;
     }
     .social-stripe{
         .social-btn{
-            i{
+            i{ 
+                cursor: pointer;
                 font-size: 24px;
                 padding: 20px;
                 background-color: $primary-color;
@@ -46,6 +47,9 @@ $primary-color: #1BAF8F;
                 &:first-child{
                     padding-right: 25px;
                     padding-left: 25px;
+                }
+                &:hover{
+                    background-color: $card-background;
                 }
             }
 

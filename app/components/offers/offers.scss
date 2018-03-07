@@ -1,0 +1,52 @@
+.offers-cmp{
+    padding: 3%;
+    background-image: url('../../../assets/img/offers/offers_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: 300;
+    
+    .stamp{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .container-fluid{
+        padding: 10%;
+    }
+
+    .card{
+        margin: 10%;
+        background-color: transparent;
+        border: none;
+        img{
+            margin-bottom: 10px;
+        }
+        .card-body{
+            padding: 0px;
+        }
+        .card-title{
+            font-size: 24px
+        }
+        .card-subtitle{
+            font-size: 18px;
+        }
+        .price{
+            color: #1BAF8F;
+            font-size: 16px;
+            strong{
+                font-size: 40px;
+            }
+        }
+        .btn{
+            font-size: 17px;
+            background-color: #1BAF8F;
+            color: #FFF;
+            border-color: #1BAF8F;
+            &:hover{
+                background-color: #17997D;
+                color: #FFF;
+            }
+        }
+    }
+}
