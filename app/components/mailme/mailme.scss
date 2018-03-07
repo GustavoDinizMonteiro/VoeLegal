@@ -1,0 +1,35 @@
+.mailme-cmp{
+    background-color: #EFEFEF;
+    padding: 1%;
+    font-weight: 300;
+    img{
+        margin-top: 20px;
+    }
+    p{
+        font-size: 18px;
+        span{
+            font-size: 24px;
+        }
+    }
+
+    input{
+        width: 60%;
+        background-color: transparent;
+        border: 1px solid #979797;
+    }
+    .form{
+        margin-top: 20px;
+    }
+    button{
+        background-color: #1BAF8F;
+        border: none;
+        padding: 3px;
+        padding-right: 15px;
+        padding-left: 15px;
+        cursor: pointer;
+        &:hover{
+            background-color: #17997D;
+            color: #FFF;
+        }
+    }
+}
