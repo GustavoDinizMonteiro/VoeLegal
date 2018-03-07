@@ -1,14 +1,21 @@
-<!doctype html>
-<html ng-app="app" lang="en">
+<!DOCTYPE html>
+<html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <title>Voe Legal</title>
-  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <base href="/">
+    <!--JS Dependencies-->
+    <script src="./dist/vendors.js"></script>
+    <script src="./dist/dist.bundle.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./dist/templates.js"></script>
+    
+    <!--SASS-->
+    <link rel="stylesheet" type="text/css" href="./dist/style.css">
+
+    <title>Zona Azul</title>
 </head>
-<body>
-  <app></app>
+<body ng-app="voe-legal" ng-cloak class="md-padding">
+    <ui-view></ui-view>
 </body>
 </html>
