@@ -1,0 +1,60 @@
+$background: #232D46;
+$font-color: #FFF;
+$card-background: #FFF;
+$primary-color: #1BAF8F;
+
+.footer-cmp{
+    background-color: $background;
+    color: $font-color;
+    padding: 3%;
+
+    p{
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    h3{
+        font-size: 24px; 
+    }
+
+    button{
+        font-size: 24px;
+        color: $primary-color;
+        width: 80%;
+    }
+
+    .payment-card{
+        background: $card-background;
+        color: black;
+        border-radius: 5px;
+        width: 80%;
+        padding: 10px;
+    }
+
+    .social-title{
+        margin-top: 65%;
+    }
+    .social-stripe{
+        .social-btn{
+            i{
+                font-size: 24px;
+                padding: 20px;
+                background-color: $primary-color;
+                border-radius: 60%;
+                margin: 10px;
+                color: $background;
+                &:first-child{
+                    padding-right: 25px;
+                    padding-left: 25px;
+                }
+            }
+
+        }
+    }
+
+    .ad-img{
+        img{
+            width: 65%;
+        }
+    }
+}

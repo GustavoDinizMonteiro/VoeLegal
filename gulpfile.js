@@ -22,7 +22,8 @@ gulp.task('angular', () => {
 
 gulp.task('template', () => {
     return gulp.src([
-      'app/components/**/*.html'
+      'app/components/**/*.html',
+      'app/pages/**/*.html'
     ])
       .pipe(htmlmin({ collapseWhitespace: true }))
       .pipe(templateCache({ root: 'components', module: 'voe-legal' }))
