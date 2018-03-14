@@ -1,0 +1,50 @@
+.signin-form-cmp{
+    background-image: url("../../../assets/img/offers/offers_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 8%;
+    padding-left: 11%;
+    padding-right: 11%;
+    color: #232D46;
+    font-weight: 300;
+    
+    h2{
+        font-size: 24px;
+        margin-bottom: 3%;
+    }
+    input{
+        background-color: rgba($color: #FFF, $alpha: .8);
+    }
+    select{
+        background-color: rgba($color: #FFF, $alpha: .8);
+    }
+    #convenio{
+        width: 30%;
+    }
+    #oab{
+        width: 20%;
+    }
+    #nome{
+        width: 50%;
+    }
+    #email, #c-email{
+        width: 40%
+    }
+    #tel, #cpf{
+        width: 25%
+    }
+    label{
+        font-size: 18px;
+    }
+    button{
+        background-color: #232D46;
+        color: white;
+        border: none;
+        width: 180px;
+        height: 45px;
+        font-size: 24px;
+        margin-top: 3%;
+        cursor: pointer;
+    }
+}

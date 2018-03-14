@@ -18,6 +18,10 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
             .state('agreement', {
                 url: '/agreement',
                 templateUrl: 'app/pages/agreement/agreement.html'
+            })
+            .state('signin', {
+                url: '/signin',
+                templateUrl: 'app/pages/signin/signin.html'
             });
     }
 ]);
