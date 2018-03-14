@@ -14,6 +14,10 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
             .state('promotions', {
                 url: '/promotions',
                 templateUrl: 'app/pages/promotions/promotions.html'
+            })
+            .state('agreement', {
+                url: '/agreement',
+                templateUrl: 'app/pages/agreement/agreement.html'
             });
     }
 ]);
