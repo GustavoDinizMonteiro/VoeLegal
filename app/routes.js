@@ -22,6 +22,10 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
             .state('signin', {
                 url: '/signin',
                 templateUrl: 'app/pages/signin/signin.html'
+            })
+            .state('signup', {
+                url: '/signup',
+                templateUrl: 'app/pages/signup/signup.html'
             });
     }
 ]);
