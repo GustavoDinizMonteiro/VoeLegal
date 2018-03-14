@@ -6,6 +6,10 @@ app.config(['$stateProvider', '$urlRouterProvider', '$locationProvider',
             .state('home', {
                 url: '/',
                 templateUrl: 'app/pages/home/home.html'
+            })
+            .state('news', {
+                url: '/news',
+                templateUrl: 'app/pages/news/news.html'
             });
     }
 ]);
