@@ -47,4 +47,17 @@
         margin-top: 3%;
         cursor: pointer;
     }
+
+    @media all and (max-width: 480px) {
+        .form-group {
+            margin-bottom: 0px;
+        }
+        #convenio, #oab, #nome, #email, #c-email, #tel, #cpf{
+            width: 100%
+        }
+        button {
+            margin: 0 20%;
+            margin-top: 5%;
+        }
+    }
 }
