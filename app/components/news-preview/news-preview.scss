@@ -7,4 +7,18 @@
     h5{
         font-size: 30px;
     }
+    .media-body {
+        display: inline-flex;
+    }
+
+    @media all and (max-width: 480px) {
+        .media {
+            text-align: center;
+            margin: 20%;
+        }
+
+        .media-body {
+            display: block;
+        }
+    }
 }

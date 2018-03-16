@@ -67,4 +67,22 @@ $primary-color: #1BAF8F;
             width: 100%;
         }
     }
+
+    @media all and (max-width: 480px) {
+        text-align: center;
+        .payment-card {
+            margin: 0 10%;        
+        }
+
+        .contact {
+            .social-title {
+                margin-top: 5%;
+            }
+        }
+        .ad-img {
+            img {
+                width: 100%;
+            }
+        }
+    }
 }

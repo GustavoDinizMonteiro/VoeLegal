@@ -19,6 +19,7 @@
         margin: 10%;
         background-color: transparent;
         border: none;
+        width: 18rem;
         img{
             margin-bottom: 10px;
         }
@@ -65,6 +66,16 @@
         }
         .card {
             margin: 0%;
+            width: 15rem;
+        }
+    }
+
+    @media all and (max-width: 480px) {
+        .container-fluid{
+            padding: 0%;
+        }
+        .card {
+            margin: auto;
         }
     }
 }
