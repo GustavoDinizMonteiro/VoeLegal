@@ -42,4 +42,19 @@
             margin-top: 20%;
         }
     }
+
+    @media all and (max-width: 480px) {
+        .row {
+            display: inline;
+
+            .info {
+                margin-left: 0;
+            }
+
+            input {
+                margin-top: 0%;
+                width: 70%;
+            }
+        }
+    }
 }
