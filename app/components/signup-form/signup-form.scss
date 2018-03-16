@@ -28,19 +28,19 @@
     }
 
     .signup {
-        // position: absolute;
         input {
             width: 20%;
             margin: auto;
             background-color: #E8E8E8;
         }
-
+        
         h2 {
             color: #1BAF8F;
         }
-
+        
         #email {
             background: url("../../../assets/img/register/mail-icon.png") no-repeat scroll 7px 7px;
+            padding: 0px 15px;
         }
 
         #password {
