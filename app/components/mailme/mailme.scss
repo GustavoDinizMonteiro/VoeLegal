@@ -32,4 +32,14 @@
             color: #FFF;
         }
     }
+
+    @media all and (max-width: 1200px) {
+        .mail {
+            margin-right: 15px;
+        }
+
+        input {
+            margin-top: 20%;
+        }
+    }
 }

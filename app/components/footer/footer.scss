@@ -63,6 +63,8 @@ $primary-color: #1BAF8F;
     }
 
     @media all and (max-width: 1200px) {
-        
+        button {
+            width: 100%;
+        }
     }
 }

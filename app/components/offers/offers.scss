@@ -58,4 +58,13 @@
             margin: 0%;
         }
     }
+
+    @media all and (max-width: 1200px) {
+        .container-fluid{
+            padding: 0%;
+        }
+        .card {
+            margin: 0%;
+        }
+    }
 }
