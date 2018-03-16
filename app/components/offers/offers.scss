@@ -49,4 +49,13 @@
             }
         }
     }
+
+    @media all and (max-width: 1920px) {
+        .container-fluid{
+            padding: 5%;
+        }
+        .card {
+            margin: 0%;
+        }
+    }
 }
