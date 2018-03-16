@@ -29,6 +29,11 @@ navdarkcomponent {
     background: transparent; /* make scrollbar transparent */
 }
 
-@media all and (max-width: 480px) {
-    
+@media all and (max-width: 1200px) {
+    navcomponent {
+        margin-left: 10%;
+    } 
+    navdarkcomponent {
+        margin-left: 10%;
+    } 
 }
