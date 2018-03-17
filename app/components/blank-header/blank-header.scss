@@ -1,4 +1,8 @@
 .blank-header-cmp{
     height: 100px;
     background-color: white;
+
+    @media all and (max-width: 480px) {
+        height: 0px;
+    }
 }

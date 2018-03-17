@@ -37,3 +37,16 @@ navdarkcomponent {
         margin-left: 10%;
     } 
 }
+
+@media all and (max-width: 480px) {
+    navcomponent {
+        margin-left: 10%;
+        position: initial;
+        overflow-y: unset;    
+    } 
+    navdarkcomponent {
+        margin-left: 10%;
+        position: initial;
+        overflow-y: unset;  
+    } 
+}

@@ -28,6 +28,16 @@
     }
 
     .signup {
+        //position: absolute;
+        width: 100%;
+        float: left;
+
+        .close {
+            background: url("../../../assets/img/register/close.png") no-repeat 7px 7px;
+            margin-top: 0;
+            width: 90px;
+        }
+
         input {
             width: 20%;
             margin: auto;
@@ -58,6 +68,32 @@
             &:hover {
                 background-color: #17997D;
                 color: #FFF;
+            }
+        }
+    }
+
+    @media all and (max-width: 1980px) {
+        .container {
+            height: 200px;
+        }
+    }
+
+    @media all and (max-width: 1200px) {
+        .container {
+            height: 200px;
+        }
+    }    
+
+    @media all and (max-width: 480px) {
+        .container {
+            height: 200px;
+        }
+        .signup {
+            input {
+                width: 55%;
+            }
+            .confirm {
+                width: 55%;                
             }
         }
     }
