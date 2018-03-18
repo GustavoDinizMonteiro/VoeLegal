@@ -50,3 +50,12 @@ navdarkcomponent {
         overflow-y: unset;  
     } 
 }
+
+@media all and (min-width: 1920px) {
+    navcomponent {
+        margin-left: 30%;  
+    } 
+    navdarkcomponent {
+        margin-left: 30%; 
+    } 
+}
