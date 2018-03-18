@@ -16,6 +16,13 @@ navcomponent {
     margin-top: 3%;
 }
 
+chatcomponent{
+    position: absolute;
+    z-index: 3;
+    bottom: 30%;
+    right: 2%;
+}
+
 navdarkcomponent {
     position: fixed;
     overflow-y: scroll;
