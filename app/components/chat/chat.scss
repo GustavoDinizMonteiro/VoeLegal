@@ -1,3 +1,12 @@
 .chat-cmp {
-    
+    button {
+        background-image: url("/assets/img/general/talkbox_icon.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 85px !important;
+        height: 85px !important;
+        border-radius: 40px;
+        margin-top: 0% !important;
+        float: right;
+    }
 }
