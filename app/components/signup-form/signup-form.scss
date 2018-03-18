@@ -28,14 +28,15 @@
     }
 
     .signup {
-        //position: absolute;
         width: 100%;
-        float: left;
 
         .close {
             background: url("../../../assets/img/register/close.png") no-repeat 7px 7px;
             margin-top: 0;
+            height: 20px;
             width: 90px;
+            float: initial;
+            margin-left: 25%;
         }
 
         input {
@@ -95,6 +96,11 @@
             .confirm {
                 width: 55%;                
             }
+            .close {
+                float: right;
+                margin-right: 4%;
+            }
         }
+
     }
 }
