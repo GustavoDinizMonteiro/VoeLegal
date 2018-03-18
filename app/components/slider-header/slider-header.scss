@@ -1,3 +1,20 @@
 .sheader-cmp{
-    
+    .carousel-inner{
+        height: 960px!important;
+        .carousel-item{
+            .carousel-caption{
+                text-align: left;
+                margin-bottom: 450px;
+                font-weight: 300;
+                h5{
+                    font-size: 40px;
+                    color: white; 
+                }
+                h4{
+                    font-size: 56px;
+                    color: black;
+                }
+            }
+        }
+    }
 }
