@@ -8,14 +8,6 @@ html,body
     font-family: 'Open Sans', sans-serif;
 }
 
-navcomponent {
-    position: fixed;
-    overflow-y: scroll;
-    z-index: 3;
-    margin-left: 20%;
-    margin-top: 3%;
-}
-
 chatcomponent{
     position: absolute;
     z-index: 3;
@@ -34,35 +26,4 @@ navdarkcomponent {
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent; /* make scrollbar transparent */
-}
-
-@media all and (max-width: 1200px) {
-    navcomponent {
-        margin-left: 10%;
-    } 
-    navdarkcomponent {
-        margin-left: 10%;
-    } 
-}
-
-@media all and (max-width: 480px) {
-    navcomponent {
-        margin-left: 10%;
-        position: initial;
-        overflow-y: unset;    
-    } 
-    navdarkcomponent {
-        margin-left: 10%;
-        position: initial;
-        overflow-y: unset;  
-    } 
-}
-
-@media all and (min-width: 1920px) {
-    navcomponent {
-        margin-left: 30%;  
-    } 
-    navdarkcomponent {
-        margin-left: 30%; 
-    } 
 }
