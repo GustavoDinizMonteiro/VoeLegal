@@ -1,0 +1,45 @@
+.promotion-header-cmp{
+    position: relative;
+    background: url("../../../assets/img/header/slide/slide_3.png") no-repeat;
+    background-size: cover;
+    height: 800px;
+
+    navcomponent{
+        position: absolute;
+        overflow-y: scroll;
+        z-index: 3;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    
+    @media all and (max-width: 1200px) {
+        navcomponent {
+            margin-left: 10%;
+        } 
+        navdarkcomponent {
+            margin-left: 10%;
+        } 
+    }
+    
+    @media all and (max-width: 480px) {
+        navcomponent {
+            margin-left: 10%;
+            position: initial;
+            overflow-y: unset;    
+        } 
+        navdarkcomponent {
+            margin-left: 10%;
+            position: initial;
+            overflow-y: unset;  
+        } 
+    }
+    
+    @media all and (min-width: 1920px) {
+        navcomponent {
+            margin-left: 30%;  
+        } 
+        navdarkcomponent {
+            margin-left: 30%; 
+        } 
+    }
+}
