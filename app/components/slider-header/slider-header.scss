@@ -8,8 +8,30 @@
         margin-left: 20%;
         margin-top: 3%;
     }
+
+    .carousel-inner{
+        .carousel-item{
+            .carousel-caption{
+                text-align: left;
+                margin-bottom: 450px;
+                font-weight: 300;
+                h5{
+                    font-size: 40px;
+                    color: white; 
+                }
+                h4{
+                    font-size: 56px;
+                    color: black;
+                }
+            }
+        }
+    }
     
     @media all and (max-width: 1200px) {
+        .carousel-inner{
+            height: 960px!important;
+        }
+
         navcomponent {
             margin-left: 10%;
         } 
@@ -28,34 +50,22 @@
             margin-left: 10%;
             position: initial;
             overflow-y: unset;  
-        } 
+        }
+        .carousel-inner{
+            height: 250px !important;
+        }
+        
     }
     
     @media all and (min-width: 1920px) {
+        .carousel-inner{
+            height: 960px!important;
+        }
         navcomponent {
             margin-left: 30%;  
         } 
         navdarkcomponent {
             margin-left: 30%; 
         } 
-    }
-
-    .carousel-inner{
-        height: 960px!important;
-        .carousel-item{
-            .carousel-caption{
-                text-align: left;
-                margin-bottom: 450px;
-                font-weight: 300;
-                h5{
-                    font-size: 40px;
-                    color: white; 
-                }
-                h4{
-                    font-size: 56px;
-                    color: black;
-                }
-            }
-        }
     }
 }
