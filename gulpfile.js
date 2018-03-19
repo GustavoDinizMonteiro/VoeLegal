@@ -48,10 +48,18 @@ gulp.task('vendor', () => {
       .pipe(gulp.dest('./dist'));
 });
 
+gulp.task('css', () => {
+return gulp.src([
+    'node_modules/bootstrap/dist/css/bootstrap.css'
+])
+    .pipe(concatCss('bootstrap.css'))
+    .pipe(gulp.dest('./dist'));
+});
+
 gulp.task('watch', () => {
     gulp.watch(['./app/**/*.js'], ['angular']);
     gulp.watch(['./app/**/*.scss'], ['sass']);
 });
 
-gulp.task('dev', ['template','angular', 'sass', 'vendor', 'watch']);
-gulp.task('default', ['template', 'angular', 'sass', 'vendor']);
+gulp.task('dev', ['template','angular', 'sass', 'vendor', 'css', 'watch']);
+gulp.task('default', ['template', 'angular', 'sass', 'vendor', 'css']);
