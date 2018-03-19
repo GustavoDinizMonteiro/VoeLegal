@@ -1,27 +1,12 @@
 <section class="singup-form-cmp">
-    <div ng-if="$ctrl.menu" class="signup">
-        <form>
-            <button class="close" type="submit" ng-click="$ctrl.menu = false"></button>
-            <br>            
-            <h2>Identifique-se</h2>
-            <div class="form-group">
-                <input type="email" class="form-control" id="email" 
-                placeholder="    E-mail ou CPF">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" id="password" 
-                placeholder="    Senha">
-            </div>
-            <button class="confirm" type="submit">ENVIAR</button>
-        </form>
-    </div>
+
     <div class="container">
         <div class="row">
             <div class="col col-ms-6">
                 <h3>Já sou cadastrado</h3>
                 <p>Faça seu login e desfrute de nossas ofertas.</p>
 
-                <button type="submit" ng-click="$ctrl.menu = true">Entrar</button>
+                <button type="submit" data-toggle="modal" data-target="#exampleModal">Entrar</button>
             </div>
 
             <img src="../../../assets/img/register/line.png" alt="">
@@ -53,5 +38,32 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+    
+                <div class="signup">
+                    <form>
+                        <button class="close" data-dismiss="modal" aria-label="Close" style="float: right"></button>
+                        <br>
+                        <h2>Identifique-se</h2>
+                        <br>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="    E-mail ou CPF">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="password" placeholder="    Senha">
+                        </div>
+                        <button class="confirm" style=width:80% type="submit">ENVIAR</button>
+                    </form>
+                </div>
+                <br>
+    
+            </div>
+        </div>
+    </div>
 </section>
 <hr>
+<br>
+<br>
